@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+   
+   
+}
+
+#header {
+    
+    display:flex;
+    justify-content: space-around;
+    padding: 30px;
+    border: 1px solid gray;
+    width: 900px;
+    margin:0 auto 0 auto;
+    font-size: 20px;
+    font-family: Rubik Puddles;
+    border-radius: 4px;
+    user-select: none;
+    background: linear-gradient(deepskyblue,yellow);
+}
+
+
+h3 {
+    margin-top: 70px;
+   
+    letter-spacing: 8px;
+}
+
+
+#btnYapilacaklar {
+
+   /* background: radial-gradient( deepskyblue,yellow, orange); */
+    border-radius: 4px;
+    height: 20px;
+    width: 455px;
+    border: none;
+    background: transparent;
+   
+    
+}
+ #giriş {
+   width: 900px;
+   border: 1px solid gray;
+   margin: 0 auto 0 auto;
+   border-radius: 4px;
+   background: radial-gradient( deepskyblue)
+}
+
+#txtYapilacaklar {
+    width: 439px;
+   /* background: radial-gradient( deepskyblue,yellow, orange);*/
+    border: none;
+    appearance: none;
+    background: transparent;
+}
+
+
+span {
+color: red;
+opacity: .7;
+display: inline-flex;
+margin:0 200px;
+}
+
+
+#listeYapilacaklar {
+ position: relative;
+ left: 220px;
+ width: 400px;
+}
+#listeTamamlananlar {
+    position: absolute;
+    left: 720px;
+    width: 400px;
+}
+
+#resimTamamla, #resimSil{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 9px;
+      
+}
+
+ul {
+    display: inline-block;
+    
+}

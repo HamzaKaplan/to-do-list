@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+
+    <form action="">
+        <div id="header">
+            <img style="margin-top: 15px; " src="tatil.png" alt="ohhh ne güzel tatil" width="130px" height="130px">
+            <h3>TATİLDE YAPILACAKLAR</h3>
+            <img src="güneş.png" alt="güneş" width="170px" height="auto">
+        </div>
+        <div id="giriş">
+            <input type="text" id="txtYapilacaklar"  tabindex="1" placeholder="tab + enter ile hızlı ekleyebilirsiniz" >
+            <input type="button" id="btnYapilacaklar" value="Yapılacaklar Listesine Ekle" onclick="listeyeEkle()" tabindex="2">
+            </input>
+        </div>
+    </form>
+    <h4 id="sonuc" style="text-align: center;"></h4>
+    <span>
+        <h4>Yapılacaklar</h4>
+    </span>
+    <span>
+        <h4>Tamamlananlar</h4>
+    </span>
+
+    <ul id="listeYapilacaklar"></ul>
+
+
+    <ul id="listeTamamlananlar"></ul>
+
+</body>
+
+</html>
