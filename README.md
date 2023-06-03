@@ -2,4 +2,4 @@
 tatilde yapılacakları listeye ekleme silme
 
 
-<img width="960" alt="toodoolist" src="https://github.com/HamzaKaplan/to-do-list/assets/124581146/bc13d48a-8302-42c2-aaa0-02a9e7ff2e5c">
+![İsimsiz video ‐ Clipchamp ile yapıldı](https://github.com/HamzaKaplan/to-do-list/assets/124581146/c87b7dd4-754f-41c4-809d-031cbcfa654d)
